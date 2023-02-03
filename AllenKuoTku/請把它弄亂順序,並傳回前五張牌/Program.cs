@@ -8,24 +8,18 @@ List<string> allCards = suits.Join(values, _ => 1, _ => 1, (s, v) => $"{s}{v,2}"
 // 弄亂傳回其中隨機五張，不能重複。
 int countOfCard = 5;
 
-Random rnd = new Random();
-string[] selectedCards = new string[countOfCard];
-int allCardNum = allCards.Count();
-
-
-
-for (int i = 0; i < countOfCard; i++)
+int n = allCards.Count;
+var rng = new Random();
+while (n > 1)
 {
-    int n = list.Count;
-    while (n > 1)
-    {
-        n--;
-        int k = rng.Next(n + 1);
-        T value = list[k];
-        list[k] = list[n];
-        list[n] = value;
-    }
+    n--;
+    int k = rng.Next(n + 1);
+    var value = allCards[k];
+    allCards[k] = allCards[n];
+    allCards[n] = value;
 }
+
+var selectedCards = allCards.Take(countOfCard);
 
 // 顯示選擇的卡
 foreach (string card in selectedCards)
