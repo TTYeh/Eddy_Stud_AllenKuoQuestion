@@ -11,7 +11,7 @@
 | 3.承上，隨機取5張 | [連結](https://replit.com/@ttyeh/RandonSelectCards#main.cs)     | Text     |10min|8min|
 | 4.承上，隨機取5張不重複 | [連結](https://replit.com/@ttyeh/Select5CardNotDuplicated#main.cs)     | Text     |x|x|
 | 5.承上，洗亂順序再取前五張 | [連結](https://replit.com/@ttyeh/5ListRandonlized#main.cs)     | Text     |x|x|
-| 6.請寫出梭哈遊戲 | [我的github](https://github.com/TTYeh/AllenKuoQuestionBank/tree/main/AllenKuoTku/StudPoker_ConsoleApp)     | Text     |6小時|x|
+| 6.請寫出梭哈遊戲 | [我的github](https://github.com/TTYeh/AllenKuoQuestionBank/tree/main/AllenKuoTku/StudPoker_ConsoleApp)     | Text     |8小時|x|
 
 2/6花 1.5小時寫出同花順和定義基本class
 題目6:
