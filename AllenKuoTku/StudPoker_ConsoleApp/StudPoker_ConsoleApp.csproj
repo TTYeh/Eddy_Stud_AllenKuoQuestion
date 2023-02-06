@@ -3,8 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>請把它弄亂順序_並傳回前五張牌</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AllenKuoTkuLib\AllenKuoTkuLib.csproj" />
+  </ItemGroup>
 
 </Project>

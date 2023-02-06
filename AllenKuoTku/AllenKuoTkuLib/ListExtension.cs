@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 請把它弄亂順序_並傳回前五張牌
+namespace StudPoker
 {
     public static class ListExtension
     {
